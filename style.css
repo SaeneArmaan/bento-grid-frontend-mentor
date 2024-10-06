@@ -45,6 +45,15 @@ h1 {
   line-height: 1rem;
 }
 
+.contentWrapper {
+  display: grid;
+  place-items: center;
+}
+
+.contentWrapper .attribution {
+  font-size: 0.7rem;
+}
+
 .contentWrapper,
 .boxWrapper {
   background-color: var(--Creme);
@@ -196,11 +205,14 @@ h1 {
 }
 
 @media screen and (min-width: 480px) and (max-width: 900px) {
- 
-  .contentWrapper{
+  .contentWrapper {
     display: grid;
     place-content: center;
     min-height: 100svh;
+  }
+
+  .contentWrapper .attribution {
+    font-size: 1rem;
   }
 
   .boxWrapper {
@@ -238,12 +250,15 @@ h1 {
 }
 
 @media screen and (min-width: 900px) {
-  
   .contentWrapper {
     display: grid;
     place-items: center;
     min-width: 100svw;
     min-height: 100svh;
+  }
+
+  .contentWrapper .attribution {
+    font-size: 1rem;
   }
 
   .boxWrapper {
@@ -293,52 +308,52 @@ h1 {
     left: calc(var(--pixel-size) * 3);
   }
 
-  .box8 h1{
+  .box8 h1 {
     font-size: 1.7rem;
     line-height: 1.7rem;
   }
 
-  .box8 img{
+  .box8 img {
     width: 100%;
     margin-top: 20px;
   }
 
-  .box2{
+  .box2 {
     position: relative;
     overflow: hidden;
     justify-content: end;
   }
 
-  .box2 h1{
+  .box2 h1 {
     font-size: 1.3rem;
     line-height: 1.3rem;
   }
 
-  .box2 img{
+  .box2 img {
     position: absolute;
     top: 1rem;
     width: 120%;
     max-width: 500px;
   }
 
-  .box3 img{
+  .box3 img {
     top: calc(var(--pixel-size) * 20);
     width: calc(var(--pixel-size) * 35);
   }
 
-  .box5 .followerWrapper{
+  .box5 .followerWrapper {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
   }
 
-  .box5 img{
+  .box5 img {
     margin-top: 10px;
     width: 40%;
   }
 
-  .box5 h1{
+  .box5 h1 {
     text-align: left;
   }
 }
