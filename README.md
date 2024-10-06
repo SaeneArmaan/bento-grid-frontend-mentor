@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://github.com/SaeneArmaan/bento-grid-frontend-mentor)
-- Live Site URL: [Live URL](https://your-live-site-url.com)
+- Live Site URL: [Live URL](https://bento-grid-saenearmaan.netlify.app/)
 
 ### Built with
 
